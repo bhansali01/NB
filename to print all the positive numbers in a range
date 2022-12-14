@@ -1,0 +1,13 @@
+# Python program to print positive Numbers in a List
+
+nums = [12,-7,5,64,-14]
+print("Original numbers in the list: ",nums)
+pos_nums = [n for n in nums if n> 0]
+print("Positive numbers in the said list: ",*pos_nums)
+
+
+
+nums = [12,14,-95,3]
+print("Original numbers in the list: ",nums)
+pos_nums = [n for n in nums if n> 0]
+print("Positive numbers in the said list: ",*pos_nums)
